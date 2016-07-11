@@ -1,7 +1,88 @@
-
-h1{
-    color: red
-}
 body{
-    text-align: center
+   /* background-image: url(images/bg.png);*/
+    background-color: #FFFFFF;
+    background-size: cover;
+    color: dimgray;
+    font-family:Microsoft JhengHei;
+}
+/*h1{
+    color: dimgray;
+    
+}*/
+
+
+#c1{
+    height: 20px;
+    width: 20px;
+    background-color: #556fb5;
+    position: absolute;
+    top:80px;
+    left: 80px;
+    border-radius: 50%; 
+    /*box-shadow: 0px 0px 10px yellow;*/
+    transition: height 2s,width 2s;/*滑鼠靠近太陽長寬變化速度*/
+}
+#c1:hover{
+    height: 50px;
+    width:50px;
+}
+#c2{
+    height: 70px;
+    width: 70px;
+    background-color: #556fb5;
+    position: absolute;
+    top:150px;
+    left: 150px;
+    border-radius: 50%; 
+    /*box-shadow: 0px 0px 10px yellow;*/
+    transition: height 2s,width 2s;/*滑鼠靠近太陽長寬變化速度*/
+}
+#c2:hover{
+    height: 50px;
+    width:50px;
+}
+#c3{
+    height: 50px;
+    width: 50px;
+    background-color: #556fb5;
+    position: absolute;
+    top:250px;
+    left:1100px;
+    border-radius: 50%; 
+    /*box-shadow: 0px 0px 10px yellow;*/
+    transition: height 2s,width 2s;/*滑鼠靠近太陽長寬變化速度*/
+}
+#c3:hover{
+    height: 80px;
+    width:80px;
+}
+#c4{
+    height: 40px;
+    width: 40px;
+    background-color: #556fb5;
+    position: absolute;
+    top:400px;
+    left:1000px;
+    border-radius: 50%; 
+    /*box-shadow: 0px 0px 10px yellow;*/
+    transition: height 2s,width 2s;/*滑鼠靠近太陽長寬變化速度*/
+}
+#c4:hover{
+    height: 30px;
+    width:30px;
+}
+#c5{
+    height: 70px;
+    width: 70px;
+    background-color: #556fb5;
+    position: absolute;
+    top:500px;
+    left:150px;
+    border-radius: 50%; 
+    /*box-shadow: 0px 0px 10px yellow;*/
+    transition: height 2s,width 2s;/*滑鼠靠近太陽長寬變化速度*/
+}
+#c5:hover{
+    height: 90px;
+    width:90px;
 }
